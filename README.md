@@ -64,5 +64,154 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-smarterweather-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://smarterweather.com/
+Smarter Weather LLC provides weather data and forecasting services built on NOAA and National Weather Service observations. Their mission is to understand the impact of weather on every person and organization, delivering proactive, personalized, and trusted guidance. They turn raw weather data into clear, actionable insights through products such as a weather app, a meteorologist agent, and a developer platform offering APIs for agents. Based in Chicago, Illinois, they also publish forecast accuracy scores and operate a status page.
+
+**Areas:** Company · Weather · Data · Forecasting · API · Climate
+
+## smarterweather-com on APIs.io
+
+Everything profiled for smarterweather-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/smarterweather-com/](https://apis.io/providers/smarterweather-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [smarterweather-com Agriculture API](https://apis.io/apis/smarterweather-com/smarterweather-com-agriculture-api/) — Agriculture-derived indices (Growing Degree Units / GDD) computed on read from stored daily temperature extremes.
+- [smarterweather-com Alerts API](https://apis.io/apis/smarterweather-com/smarterweather-com-alerts-api/) — NWS weather alert lookups.
+- [smarterweather-com Climate API](https://apis.io/apis/smarterweather-com/smarterweather-com-climate-api/) — Climatology: long-period day-of-year statistics describing what is typical at a location, as distinct from what is forecast.
+- [smarterweather-com Geocode API](https://apis.io/apis/smarterweather-com/smarterweather-com-geocode-api/) — Forward, reverse, and typeahead geocoding for locations within the 50 US states and DC. Forward and typeahead results omit places outside it (Puerto Rico,…
+- [smarterweather-com Guidance API](https://apis.io/apis/smarterweather-com/smarterweather-com-guidance-api/) — Forecaster guidance products (SPC mesoscale discussions, WPC precipitation discussions, area forecast discussions, hazardous weather outlooks, short-term…
+- [smarterweather-com Health API](https://apis.io/apis/smarterweather-com/smarterweather-com-health-api/) — Service health.
+- [smarterweather-com Meta API](https://apis.io/apis/smarterweather-com/smarterweather-com-meta-api/) — Cross-cutting platform endpoints: the data catalog, platform status, deprecations.
+- [smarterweather-com Observations API](https://apis.io/apis/smarterweather-com/smarterweather-com-observations-api/) — Surface observations and upper-air soundings sampled at or nearest to a point.
+- [smarterweather-com Products API](https://apis.io/apis/smarterweather-com/smarterweather-com-products-api/) — Gridded / vector weather products and derived summaries, such as risk-zone population exposure.
+- [smarterweather-com Storms API](https://apis.io/apis/smarterweather-com/smarterweather-com-storms-api/) — Severe-weather tracking products (storm tracks, storm reports, record events).
+- [smarterweather-com Weather API](https://apis.io/apis/smarterweather-com/smarterweather-com-weather-api/) — Public weather data endpoints.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Smarterweather Com Agentic Access](https://apis.io/agentic-access/smarterweather-com/smarterweather-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AlertDetail](https://apis.io/schemas/smarterweather-com/smarterweather-com-alert-detail/)
+- [OutlookDetail](https://apis.io/schemas/smarterweather-com/smarterweather-com-outlook-detail/)
+- [PointValue](https://apis.io/schemas/smarterweather-com/smarterweather-com-point-value/)
+- [RouteWeatherResponse](https://apis.io/schemas/smarterweather-com/smarterweather-com-route-weather-response/)
+- [Weather](https://apis.io/schemas/smarterweather-com/smarterweather-com-weather/)
+- [WeatherBatchRequest](https://apis.io/schemas/smarterweather-com/smarterweather-com-weather-batch-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Smarterweather Com Context](https://apis.io/jsonld/smarterweather-com/smarterweather-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [smarterweather-com API Rules](https://apis.io/rules/smarterweather-com/smarterweather-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Smarterweather Com Authentication](https://apis.io/security/smarterweather-com/smarterweather-com-authentication/)
+- [Smarterweather Com Domain Security](https://apis.io/security/smarterweather-com/smarterweather-com-domain-security/)
+- [Smarterweather Com Vulnerability Disclosure](https://apis.io/security/smarterweather-com/smarterweather-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Smarterweather Com Scopes](https://apis.io/scopes/smarterweather-com/smarterweather-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Smarterweather Com Plans Pricing](https://apis.io/plans/smarterweather-com/smarterweather-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Smarterweather Com Rate Limits](https://apis.io/rate-limits/smarterweather-com/smarterweather-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://smarterweather.com/)
+- [Documentation](https://developers.smarterweather.com/overview/)
+- [Getting started](https://developers.smarterweather.com/quickstart/)
+- [API reference](https://developers.smarterweather.com/api/reference)
+- [Pricing](https://smarterweather.com/app-pricing/)
+- [Support](https://smarterweather.com/contact/)
+- [Changelog](https://smarterweather.com/changelog)
+- [Security](https://developers.smarterweather.com/authentication/leaked-keys/)
+- [Terms of service](https://smarterweather.com/terms/)
+- [Privacy policy](https://smarterweather.com/privacy/)
+- [Status](https://status.smarterweather.com/)
+
+## API Evangelist rating
+
+**Kin Score 71.9** — exemplar · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 65.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 78.4 |
+| Developer ergonomics | 68.3 |
+| Access clarity | 60.0 |
+
+**Agent readiness 57.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/smarterweather-com/](https://apis.io/providers/smarterweather-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for smarterweather-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/smarterweather-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
